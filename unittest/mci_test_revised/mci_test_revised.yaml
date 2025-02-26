@@ -1,0 +1,15 @@
+---
+given:
+- stage: "TXD_TrasactionDataSet"
+  link: "L_FLTR_in"
+  path: "TXD_TrasactionDataSet-L_FLTR_in.csv"
+when:
+  job: "mci_test_revised"
+  controller: null
+  parameters: {}
+then:
+- stage: "TXD_TrasactionDataSet_Out"
+  link: "L_FLTR_out"
+  path: "TXD_TrasactionDataSet_Out-L_FLTR_out.csv"
+  cluster: null
+  ignore: null

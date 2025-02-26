@@ -1,0 +1,1 @@
+"TRANSACTION_ID|ustring","TX_DATETIME|ustring","CUSTOMER_ID|ustring","TERMINAL_ID|ustring","TX_AMOUNT|sfloat","TX_TIME_SECONDS|int32","TX_TIME_DAYS|int32","TX_FRAUD|ustring","TX_FRAUD_SCENARIO|ustring"
